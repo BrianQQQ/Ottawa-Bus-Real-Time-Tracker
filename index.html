@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ottawa Real Time Bus Location</title>
+    <script defer src="./app.js"></script>
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA61HGgmtFFqrQ7PGPqm69qs9tLfpJWm5A&callback=initMap"></script>
+    <style>
+        #map {
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Ottawa Real Time Bus Location</h1>
+    <h2>Type in your stop number</h2>
+    <form>
+        <input type="text" placeholder="input the stop number" id="stop_number">
+        <input type="submit">
+    </form>
+
+    <p>Select your bus:</p>
+    <select name="buses" id="buses">
+        
+    </select>
+
+
+    <div id="result"></div>
+
+    <div id="map"></div>
+
+</body>
+
+</html>
