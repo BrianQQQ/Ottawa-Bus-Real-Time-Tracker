@@ -1,5 +1,5 @@
-const appID = "9969c839";
-const apiKey = "6371972d313a53b530c2a79fa8d8587d";
+const appID = "enter your appID";
+const apiKey = "enter your apiKey";
 const format = "json";
 
 function initMap() {
